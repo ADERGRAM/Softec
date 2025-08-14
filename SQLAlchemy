@@ -12,6 +12,7 @@
 from sqlalchemy import create_engine
 engine = create_engine('postgresql://postgres:qazxsw21@127.0.0.1/postgres', echo=True)
 
+## ex) engine = create_engine('사용sql://username:password@localhost:5432/dbname)
 ## echo : SQLAlchemy 로깅 활성화 여부, True : SQLAlchemy가 수행하는 모든 SQL문 콘솔 출력, 개발 과정에서 SQL 문 실행 확인에 유용
 
 # 테이블 매핑
